@@ -1,1 +1,31 @@
-# first-projects
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f4f4f4;
+  color: #333;
+}
+h1 {
+  color: #007acc;
+}
+p {
+  line-height: 1.6;
+}
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+code {
+  background-color: #eaeaea;
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-family: "Courier New", Courier, monospace;
+}
+pre {
+  background-color: #eaeaea;
+  padding: 10px;
+  border-radius: 4px;
+  overflow-x: auto;
+}
