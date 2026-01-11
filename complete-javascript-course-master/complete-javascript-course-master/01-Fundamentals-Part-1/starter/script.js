@@ -81,16 +81,29 @@
 
 /* Write your code below. Good luck! 🙂 */
 
-const massMark = 78 ;
-const heightMark =1.69 ;
-const massJohn =95 ;
-const heightJohn =1.95 ;
+// const massMark = 78 ;
+// const heightMark =1.69 ;
+// const massJohn =95 ;
+// const heightJohn =1.95 ;
 
-const BMIMark = massMark / (heightMark**2);
-const BMIJohn = massJohn / (heightJohn**2);
+// const BMIMark = massMark / (heightMark**2);
+// const BMIJohn = massJohn / (heightJohn**2);
 
-const markHigherBMI = BMIMark > BMIJohn;
+// const markHigherBMI = BMIMark > BMIJohn;
 
-console.log(BMIMark,BMIJohn,markHigherBMI);
+// console.log(BMIMark,BMIJohn,markHigherBMI);
 
+const firstName = 'Nafiul';
+const job = 'teacher ';
+const birthYear = 1991 ;
+
+const Nafiul = 'I am ' + firstName + ', a ' + 
+(2037 - birthYear) + ' years old ' + job + '!';
+console.log(Nafiul);
+
+const NafiulNew = `I am ${firstName}, a  ${2037 - birthYear}
+years old ${job}`;
+
+console.log(NafiulNew); 
   
+console.log(`just a regular string...`);
