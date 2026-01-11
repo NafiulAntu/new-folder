@@ -93,17 +93,43 @@
 
 // console.log(BMIMark,BMIJohn,markHigherBMI);
 
-const firstName = 'Nafiul';
-const job = 'teacher ';
-const birthYear = 1991 ;
+// const firstName = 'Nafiul';
+// const job = 'teacher ';
+// const birthYear = 1991 ;
 
-const Nafiul = 'I am ' + firstName + ', a ' + 
-(2037 - birthYear) + ' years old ' + job + '!';
-console.log(Nafiul);
+// const Nafiul = 'I am ' + firstName + ', a ' + 
+// (2037 - birthYear) + ' years old ' + job + '!';
+// console.log(Nafiul);
 
-const NafiulNew = `I am ${firstName}, a  ${2037 - birthYear}
-years old ${job}`;
+// const NafiulNew = `I am ${firstName}, a  ${2037 - birthYear}
+// years old ${job}`;
 
-console.log(NafiulNew); 
+// console.log(NafiulNew); 
   
-console.log(`just a regular string...`);
+// console.log(`just a regular string...`);
+
+// console.log(``)
+
+
+const age = 17 ;
+const isOLdEnough = age >= 18 ;
+
+if(isOLdEnough){
+  console.log('Sarah can start driving License ');
+}
+else{
+  const yearsLeft = 18 -age;
+  console.log(`Sarah is too young. Wait another ${yearsLeft} years :)`);
+}
+
+const birthYear = 2012 ;
+
+let century;
+if ( birthYear <= 2000){
+  century =20 ;
+}
+else {
+  century = 21 ;
+}
+
+console.log(century);
