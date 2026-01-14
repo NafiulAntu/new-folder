@@ -238,19 +238,47 @@
 // }
 
 
-const scoreDolphins = (97 + 112 + 101)/3;
-const scoreKoalas = (109 + 95 + 106)/3;
-console.log(scoreDolphins,scoreKoalas);
+// const scoreDolphins = (97 + 112 + 80)/3;
+// const scoreKoalas = (109 + 95 + 50)/3;
+// console.log(scoreDolphins,scoreKoalas);
 
-if (scoreDolphins > scoreKoalas && scoreDolphins >=100){
-  console.log("Dolphins win the trophy ");
-}
-else if (scoreDolphins < scoreKoalas && scoreKoalas >=100){
-  console.log("koalas win the trophy");
-}
-else if ( scoreDolphins === scoreKoalas && scoreDolphins >= 100 && scoreKoalas >=100){
-  console.log("Both win the trophy");
-}
-else{
-  console.log("No one wins the trophy"); 
+// if (scoreDolphins > scoreKoalas && scoreDolphins >=100){
+//   console.log("Dolphins win the trophy ");
+// }
+// else if (scoreDolphins < scoreKoalas && scoreKoalas >=100){
+//   console.log("koalas win the trophy");
+// }
+// else if ( scoreDolphins === scoreKoalas && scoreDolphins >= 100 && scoreKoalas >=100){
+//   console.log("Both win the trophy");
+// }
+// else{
+//   console.log("No one wins the trophy"); 
+// }
+
+const day = 'tuesday';
+
+switch (day){
+  case 'monday':
+    console.log('plan course structure');
+    console.log('go to coding meetup');
+    break;
+  case 'tuesday':
+    console.log('prepare theory viodeos');
+    break;
+  case 'wedensday':
+    console.log('write code examples');
+    break;
+  case 'thursday':
+    console.log('write code examples');
+    break;
+  case 'friday':
+    console.log('record videos');
+    break;
+  case 'saturday':
+    console.log('enjoy the weekeed ');
+    break;
+  default :
+  console.log('not a valid day');
+
+
 }
