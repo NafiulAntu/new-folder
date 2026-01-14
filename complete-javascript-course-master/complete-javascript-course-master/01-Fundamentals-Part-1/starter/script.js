@@ -217,22 +217,40 @@
 // }
 // if (favorite !== 23) console.log('why not 23 ?');
 
-const hasDriversLicense = true ;
-const hasGoodVision = true ;
+// const hasDriversLicense = true ;
+// const hasGoodVision = true ;
 
-console.log(hasDriversLicense &&  hasGoodVision);
-console.log(hasDriversLicense || hasGoodVision);
-console.log(!hasDriversLicense);
+// console.log(hasDriversLicense &&  hasGoodVision);
+// console.log(hasDriversLicense || hasGoodVision);
+// console.log(!hasDriversLicense);
 
-// const shouldDrive = hasDriversLicense && hasGoodVision;
+// // const shouldDrive = hasDriversLicense && hasGoodVision;
 
 
 
-const isTired = false ;
-console.log(hasDriversLicense || hasDriversLicense || isTired);
+// const isTired = false ;
+// console.log(hasDriversLicense || hasDriversLicense || isTired);
 
-if (hasDriversLicense && hasDriversLicense && !isTired){
- console.log("Sharah is able to drive!");
-}else {
- console.log("Someone else should drive...");
+// if (hasDriversLicense && hasDriversLicense && !isTired){
+//  console.log("Sharah is able to drive!");
+// }else {
+//  console.log("Someone else should drive...");
+// }
+
+
+const scoreDolphins = (97 + 112 + 101)/3;
+const scoreKoalas = (109 + 95 + 106)/3;
+console.log(scoreDolphins,scoreKoalas);
+
+if (scoreDolphins > scoreKoalas && scoreDolphins >=100){
+  console.log("Dolphins win the trophy ");
+}
+else if (scoreDolphins < scoreKoalas && scoreKoalas >=100){
+  console.log("koalas win the trophy");
+}
+else if ( scoreDolphins === scoreKoalas && scoreDolphins >= 100 && scoreKoalas >=100){
+  console.log("Both win the trophy");
+}
+else{
+  console.log("No one wins the trophy"); 
 }
