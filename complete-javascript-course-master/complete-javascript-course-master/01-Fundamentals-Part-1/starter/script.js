@@ -255,51 +255,63 @@
 //   console.log("No one wins the trophy"); 
 // }
 
-const day = 'tuesday';
+// const day = 'tuesday';
 
-switch (day){
-  case 'monday':
-    console.log('plan course structure');
-    console.log('go to coding meetup');
-    break;
-  case 'tuesday':
-    console.log('prepare theory viodeos');
-    break;
-  case 'wedensday':
-    console.log('write code examples');
-    break;
-  case 'thursday':
-    console.log('write code examples');
-    break;
-  case 'friday':
-    console.log('record videos');
-    break;
-  case 'saturday':
-    console.log('enjoy the weekeed ');
-    break;
-  default :
-  console.log('not a valid day');
+// switch (day){
+//   case 'monday':
+//     console.log('plan course structure');
+//     console.log('go to coding meetup');
+//     break;
+//   case 'tuesday':
+//     console.log('prepare theory viodeos');
+//     break;
+//   case 'wedensday':
+//     console.log('write code examples');
+//     break;
+//   case 'thursday':
+//     console.log('write code examples');
+//     break;
+//   case 'friday':
+//     console.log('record videos');
+//     break;
+//   case 'saturday':
+//     console.log('enjoy the weekeed ');
+//     break;
+//   default :
+//   console.log('not a valid day');
 
+// }
+
+// if (day === 'monday'){
+//   console.log('plan course structure');
+// }
+// else if (day === 'tuesday'){
+
+// }
+// else if (day === 'wedensday'){
+
+// }
+// else if (day === 'thursday'){
+
+// }
+// else if (day === 'friday'){
+
+// }
+// else if (day === 'saturday'){
+
+// }
+// else {
+//   console.log('not a valid day');
+// }
+
+3 + 4 
+1991
+true && false && !false;
+
+if(23 > 10){
+  const str = '23 is bigger';
 }
 
-if (day === 'monday'){
-  console.log('plan course structure');
-}
-else if (day === 'tuesday'){
+const me = 'Nafiul';
+console.log(`I am ${2037 -1991} years old ${me}`);
 
-}
-else if (day === 'wedensday'){
-
-}
-else if (day === 'thursday'){
-
-}
-else if (day === 'friday'){
-
-}
-else if (day === 'saturday'){
-
-}
-else {
-  console.log('not a valid day');
-}
