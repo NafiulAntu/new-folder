@@ -280,5 +280,26 @@ switch (day){
   default :
   console.log('not a valid day');
 
+}
 
+if (day === 'monday'){
+  console.log('plan course structure');
+}
+else if (day === 'tuesday'){
+
+}
+else if (day === 'wedensday'){
+
+}
+else if (day === 'thursday'){
+
+}
+else if (day === 'friday'){
+
+}
+else if (day === 'saturday'){
+
+}
+else {
+  console.log('not a valid day');
 }
