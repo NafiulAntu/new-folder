@@ -36,19 +36,36 @@
 // const num = Number('23');
 
 
-// Function Declaration
-function calcAge1 (birthYeah) {
-    return 2037 - birthYeah;
+
+
+// // Function Declaration
+// const age1 = calcAge1(1991);
+
+// function calcAge1 (birthYeah) {
+//     return 2037 - birthYeah;
+// }
+
+
+// // Function Expression
+
+// const calcAge2 = function (birthYeah) {
+//     return 2037 - birthYeah;
+// }
+// const age2 = calcAge2(1991);
+// console.log(age1,age2);
+
+
+// Arrow Function
+const calcAge3 = birthYeah => 2037 - birthYeah;
+const age3 = calcAge3(1991);
+
+calcAge3(1991);
+console.log(age3);
+
+const yearsUntilRetirement = birthYeah => {
+    const age = 2037 - birthYeah;
+    const retirement = 65 - age ;
+    return retirement;
 }
 
-const age1 = calcAge1(1991);
-
-// Function Expression
-const calcAge2 = function (birthYeah) {
-    return 2037 - birthYeah;
-}
-
-const age2 = calcAge2(1991);
-
-console.log(age1,age2);
-
+console.log(yearsUntilRetirement(1991));
