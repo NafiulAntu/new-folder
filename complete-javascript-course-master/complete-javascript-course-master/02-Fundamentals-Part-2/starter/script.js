@@ -90,23 +90,60 @@
 // const juice = fruitProcessor(2,3);
 // console.log(juice);
 
+
+
+// const calcAge = function(birthYeah){
+//     return 2037 - birthYeah;
+// }
+// const yearsUntilRetirement = function (birthYeah, firstName){
+//     const age = calcAge(birthYeah);
+//     const retirement = 65 - age ;
+
+//     if (retirement > 0){
+        
+//         console.log(`${firstName} retires in ${retirement} years`);
+//         return retirement;
+//     } else {
+//         console.log(`${firstName} has already retired 🎉`);
+//         return -1;
+//     }
+// }
+
+// console.log(yearsUntilRetirement(1991, 'Jonas'));
+// console.log(yearsUntilRetirement(1950, 'Bob'));
+
+
+const friend1 = 'Michael';
+const friend2 = 'Steven';
+const friend3 = 'Peter';
+
+const friends = ['Michael', 'Steven', 'Peter'];
+console.log(friends);
+
+const years = new Array(1991, 1984, 2008, 2020);
+console.log(friends[0]);
+console.log(friends[2]);
+
+console.log(friends.length);
+console.log(friends[friends.length - 1]);
+
+friends[2] = 'Jay';
+console.log(friends); 
+
+//friends = ['Bob','Alice'];
+const firstName = 'Jonas';
+const jonas = [firstName, 'Schmedtmann', 2037 - 1991, 'teacher', friends];
+
+console.log(jonas);
+
+// Exercise
 const calcAge = function(birthYeah){
     return 2037 - birthYeah;
 }
-const yearsUntilRetirement = function (birthYeah, firstName){
-    const age = calcAge(birthYeah);
-    const retirement = 65 - age ;
+const years1 = [1990, 1967, 2002, 2010, 2018];
 
-    if (retirement > 0){
-        
-        console.log(`${firstName} retires in ${retirement} years`);
-        return retirement;
-    } else {
-        
-        console.log(`${firstName} has already retired 🎉`);
-        return -1;
-    }
-}
 
-console.log(yearsUntilRetirement(1991, 'Jonas'));
-console.log(yearsUntilRetirement(1950, 'Bob'));
+const age1 = calcAge(years1[0]);
+const age2 = calcAge(years1[1]);
+const age3 = calcAge(years1[years1.length - 1]);
+console.log(age1, age2, age3);
