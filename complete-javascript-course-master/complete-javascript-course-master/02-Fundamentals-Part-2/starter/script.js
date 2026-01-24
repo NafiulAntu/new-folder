@@ -269,6 +269,20 @@
 
 
 // For loop keeps running while condition is TRUE
-for (let rep = 1; rep <= 10; rep ++){
-    console.log(`Lifting weights repetition ${rep} 🏋️‍♀️`);
+// for (let rep = 1; rep <= 5; rep ++){
+//     console.log(`Lifting weights repetition ${rep} 🏋️‍♀️`);
+// }
+
+
+
+const jonas = [
+    'Jonas',
+    'Schmedtmann',   
+    2037 - 1991,
+    'teacher',
+    ['Michael', 'Peter', 'Steven'],
+];   
+
+for (let i = 0; i <jonas.length; i++){
+    console.log(jonas[i]);
 }
