@@ -232,12 +232,31 @@ const jonas = {
     friends : ['Michael', 'Peter', 'Steven'],
     hasDriversLicense : true,
 
+    // calcAge : function() {
+    //   //  console.log(this);
+    //     return this.job;
+    // }
+
     calcAge : function() {
-        
-        console.log(this);
-        return 2037 - this.birthYear;
+        this.age = 2037 - this.birthYear;
+        return this.age;
+    },
+    
+    getsSummary : function() {
+        return `${this.firstName} is a ${this.calcAge()} 
+        -year old ${this.job},
+        and he has ${this.hasDriversLicense ? 'a' : 'no'} 
+        driver's license.`
     }
+
 };
 
 console.log(jonas.calcAge());
+console.log(jonas.calcAge());
+console.log(jonas.calcAge());
+
  //console.log(jonas['calcAge'](1991));
+// Challenge
+// "Jonas is a 46-year old teacher, and he has a/no driver's license"
+
+console.log(jonas.getsSummary());
