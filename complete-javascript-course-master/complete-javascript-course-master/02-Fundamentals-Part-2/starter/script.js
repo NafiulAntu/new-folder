@@ -224,39 +224,51 @@
 // console.log(`${jonas.firstName} has ${jonas.friends.length} friends, and his best friend is called ${jonas.friends[0]}`);
 
 
-const jonas = {
-    firstName : 'jonas',
-    lastName : 'Schmedtmann',       
-    birthYear : 1991,
-    job : 'teacher',
-    friends : ['Michael', 'Peter', 'Steven'],
-    hasDriversLicense : true,
+// const jonas = {
+//     firstName : 'jonas',
+//     lastName : 'Schmedtmann',       
+//     birthYear : 1991,
+//     job : 'teacher',
+//     friends : ['Michael', 'Peter', 'Steven'],
+//     hasDriversLicense : false,
+//     // calcAge : function() {
+//     //   //  console.log(this);
+//     //     return this.job;
+//     // }
+//     calcAge : function() {
+//         this.age = 2037 - this.birthYear;
+//         return this.age;
+//     },
+//     getsSummary : function() {
+//         return `${this.firstName} is a ${this.calcAge()} 
+//         -year old ${this.job},
+//         and he has ${this.hasDriversLicense ? 'a' : 'no'} 
+//         driver's license.`
+//     }
+// };
+// console.log(jonas.calcAge());
+// console.log(jonas.calcAge());
+// console.log(jonas.calcAge());
 
-    // calcAge : function() {
-    //   //  console.log(this);
-    //     return this.job;
-    // }
+//  //console.log(jonas['calcAge'](1991));
+// // Challenge
+// // "Jonas is a 46-year old teacher, and he has a/no driver's license"
 
-    calcAge : function() {
-        this.age = 2037 - this.birthYear;
-        return this.age;
-    },
-    
-    getsSummary : function() {
-        return `${this.firstName} is a ${this.calcAge()} 
-        -year old ${this.job},
-        and he has ${this.hasDriversLicense ? 'a' : 'no'} 
-        driver's license.`
-    }
+// console.log(jonas.getsSummary());
 
-};
+// console.log('Lifting weights repetition 1 🏋️‍♀️');
+// console.log('Lifting weights repetition 2 🏋️‍♀️');
+// console.log('Lifting weights repetition 3 🏋️‍♀️');
+// console.log('Lifting weights repetition 4 🏋️‍♀️');
+// console.log('Lifting weights repetition 5 🏋️‍♀️');
+// console.log('Lifting weights repetition 6 🏋️‍♀️');
+// console.log('Lifting weights repetition 7 🏋️‍♀️');
+// console.log('Lifting weights repetition 8 🏋️‍♀️');
+// console.log('Lifting weights repetition 9 🏋️‍♀️');
+// console.log('Lifting weights repetition 10 🏋️‍♀️');
 
-console.log(jonas.calcAge());
-console.log(jonas.calcAge());
-console.log(jonas.calcAge());
 
- //console.log(jonas['calcAge'](1991));
-// Challenge
-// "Jonas is a 46-year old teacher, and he has a/no driver's license"
-
-console.log(jonas.getsSummary());
+// For loop keeps running while condition is TRUE
+for (let rep = 1; rep <= 10; rep ++){
+    console.log(`Lifting weights repetition ${rep} 🏋️‍♀️`);
+}
