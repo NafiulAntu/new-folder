@@ -281,8 +281,10 @@ const jonas = [
     2037 - 1991,
     'teacher',
     ['Michael', 'Peter', 'Steven'],
+    true
 ];   
 
-for (let i = 0; i <jonas.length; i++){
+for (let i = 0; i <5 ; i++){
     console.log(jonas[i]);
 }
+
