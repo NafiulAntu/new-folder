@@ -76,7 +76,7 @@ const measureKelvin = function () {
     unit: 'celsius',
 
     // C) FIX
-    // value: Number(prompt('Degrees celsius:')),
+    //value: Number(prompt('Degrees celsius:')),
     value: 10,
   };
 
