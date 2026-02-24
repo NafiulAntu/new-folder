@@ -76,15 +76,15 @@ const measureKelvin = function () {
     unit: 'celsius',
 
     // C) FIX
-    //value: Number(prompt('Degrees celsius:')),
-    value: 10,
+    value: Number(prompt('Degrees celsius:')),
+    //value: 10,
   };
 
   // B) FIND THE BUG
   console.table(measurement);
-  console.log(measurement.value);
-  console.warn(measurement.value);
-  console.error(measurement.value);
+  // console.log(measurement.value);
+  // console.warn(measurement.value);
+  // console.error(measurement.value);
 
   const kelvin = measurement.value + 273;
   return kelvin;
